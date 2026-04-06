@@ -4,7 +4,7 @@ const app = express();
 
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({});
+const ai = new GoogleGenAI({process.env.GEMINI_API_KEY});
 
 const statsTemplate = {
     type: "object",
