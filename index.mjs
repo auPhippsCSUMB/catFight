@@ -4,7 +4,7 @@ const app = express();
 
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyD8_zUIjh6DltN9UpT9tLhKIjYBM_y4F-E" });
+const ai = new GoogleGenAI({});
 
 const statsTemplate = {
     type: "object",
