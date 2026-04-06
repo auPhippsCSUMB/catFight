@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("partials/header.ejs") %>
+
+<body>
+    <%- include("partials/nav.ejs") %>
+    <img src=<%=meme %> class="meme">
+    <form action="/createdMeme" method="GET">
+        <input type="text" name="custom">
+        <input type="text" id="hidden" value=<%=id %> name="id" >
+        <br>
+        <button> Create Meme </button>
+    </form>
+</body>
+
+</html>

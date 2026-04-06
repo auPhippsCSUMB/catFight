@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("partials/header.ejs") %>
+
+<body>
+    <%- include("partials/nav.ejs") %>
+    <h1>CAT FIGHT</h1>
+
+    <div id="main">
+        <div class="row">
+            <div class="card">
+                <h3>
+                    <%=stats1["catname"]%>
+                </h3>
+                <img src=<%=picture1 %> class="fighter">
+                <div class="row">
+                    <button>
+                        <%=stats1["catMove1"]%>
+                    </button>
+                    <button>
+                        <%=stats1["catMove2"]%>
+                    </button>
+                </div>
+                <div class="row">
+                    <button>
+                        <%=stats1["catMove3"]%>
+                    </button>
+                    <button>
+                        <%=stats1["catMove4"]%>
+                    </button>
+                </div>
+            </div>
+            <h1 id="beeg">VS</h1>
+            <div class="card">
+                <h3>
+                    <%=stats2["catname"]%>
+                </h3>
+                <img src=<%=picture2 %> class="fighter">
+                <div class="row">
+                    <button>
+                        <%=stats2["catMove1"]%>
+                    </button>
+                    <button>
+                        <%=stats2["catMove2"]%>
+                    </button>
+                </div>
+                <div class="row">
+                    <button>
+                        <%=stats2["catMove3"]%>
+                    </button>
+                    <button>
+                        <%=stats2["catMove4"]%>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

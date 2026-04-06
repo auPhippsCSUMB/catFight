@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.lexend-norm {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    width: 99vw;
+    height: 99vh;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(202, 244, 255) 60%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: aliceblue;
+    width: 80vw;
+    margin: 1.5vh auto;
+    font-size: 2vw;
+    padding: 1%;
+    display: flex;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 0.3vw;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    box-shadow: 0.1rem 0.1rem 5px rgba(0, 0, 0, 0.4);
+    scale: 105%;
+}
+
+input {
+    margin: 1vh;
+    padding: 0.5vw;
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+img {
+    border: 3px pink inset;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+img:hover {
+    scale: 105%;
+    box-shadow: 0.1rem 0.1rem 5px rgba(0, 0, 0, 0.4);
+}
+
+#beeg {
+    font-size: 11vw;
+    color: red;
+    padding: auto, 7vw;
+}
+
+.navLink {
+    margin: 0.5vw;
+    transition: all 0.2s ease;
+}
+
+.navLink:hover {
+    scale: 105%;
+    color: grey;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.fighter {
+    width: 20vw;
+    height: auto;
+}
+
+.meme {
+    width: auto;
+    height: 50vh;
+}
+
+#main {
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#hidden {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
